@@ -37,3 +37,8 @@
         4. we have to connect using as follows here we are using to connect mapStateToProps with ReduxChild as below
 
               export default connect (mapStateToProps)  (ReduxChild)          
+5. If component to  update any value in the state
+    1.  Dispatch an action
+    2.  action is a fucntion it returns object {type, payload}
+    3.  action will trigger reducer 
+    4.  Reducer will change the value
